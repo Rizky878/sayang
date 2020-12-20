@@ -151,10 +151,10 @@ else if (text == '.mute'){
 conn.sendMessage(id, '📢 FITUR INI HANYA BISA DI GUNAKAN OWNER' ,MessageType.text);
 }
 else if (text == '.owner'){
-conn.sendMessage(id, 'Owner lentbot wa.me/+628165466368' ,MessageType.text);
+conn.sendMessage(id, 'Owner ikybot wa.me/+6282387804410' ,MessageType.text);
 }
-else if (text == 'maslent'){
-conn.sendMessage(id, 'Aku BOT nya lent' ,MessageType.text);
+else if (text == 'Rizky'){
+conn.sendMessage(id, 'itu owner aku kenapa!' ,MessageType.text);
 }
 else if (text == '.join'){
 conn.sendMessage(id, '📢 FITUR INI HANYA BISA DI GUNAKAN OWNER' ,MessageType.text);
@@ -178,7 +178,7 @@ else if (text == 'Hai'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
 }
 else if (text == '.ttp'){
-conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6289655478810* ' ,MessageType.text);
+conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6282387804410* ' ,MessageType.text);
 }
 else if (text == 'Woi'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
@@ -220,13 +220,13 @@ else if (text == 'Cuy'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
 }
 else if (text == '.frendsowner'){
-conn.sendMessage(id, 'kawan1 maslent wa.me/+628165466368' ,MessageType.text);
+conn.sendMessage(id, 'kawan1  kepo ajg wa.me/+6282387804410' ,MessageType.text);
 }
 else if (text == '.coowner'){
-conn.sendMessage(id, 'kawan2 testing script wa.me/+628165466368' ,MessageType.text);
+conn.sendMessage(id, 'kawan2 testing script wa.me/+6282387804410' ,MessageType.text);
 }
 else if (text == '.groupbot'){
-conn.sendMessage(id, 'group bot whatsapp https://chat.whatsapp.com/GDdd0I3WlF5LnMVifmS7rN' ,MessageType.text);
+conn.sendMessage(id, 'group bot whatsapp https://chat.whatsapp.com/LLCSpSL2S8A1NJwTnMIgWY' ,MessageType.text);
 }
 else if (text == 'Euy'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh .help' ,MessageType.text);
@@ -490,7 +490,7 @@ conn.sendMessage(id, 'Succes Change Description Group' ,MessageType.text, { quot
 }
 if (text.includes('.creator')){
 conn.sendMessage(id, {displayname: "Jeff", vcard: vcard}, MessageType.contact)
-conn.sendMessage(id, 'Ingin donasi untuk masukin Bot ke group?, chat Owner :D', MessageType.text)
+conn.sendMessage(id, 'Ingin masukin Bot ke group?, chat owner:D', MessageType.text)
 }
 if (text.includes(".bitly")){
 const teks = text.replace(/.bitly /, "")
@@ -1053,7 +1053,7 @@ else if (text == '.foto'){
 conn.sendMessage(id, 'kirim .foto cewek/cowok\n\nContoh: .foto cewek' ,MessageType.text);
 }
 else if (text == '.help'){
-conn.sendMessage(id, 'SUBSCRIBE CHANEL GW : MASLENT YT' ,MessageType.text);
+conn.sendMessage(id, 'GUNAKAN SEBIJAKNYA!!' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
@@ -1818,8 +1818,8 @@ if (text.includes('.ttp')){
         })
     })
 }
-else if (text == '.hello1'){
-let hasil = fs.readFileSync('mp3/' + 'PTT' + '.wav')
+else if (text == 'roti'){
+let hasil = fs.readFileSync('mp3/' + 'roti' + '.wav')
  conn.sendMessage(id, hasil, MessageType.audio, { quoted: m } )
 }
 if (text.includes("pota")){
@@ -1855,7 +1855,7 @@ let hasil = fs.readFileSync('mp3/' + 'welot' + '.mp3')
  conn.sendMessage(id, hasil, MessageType.audio, { quoted: m } )
 }
 else if (text == 'P'){
-let hasil = fs.readFileSync('mp3/' + 'salam' + '.mp3')
+let hasil = fs.readFileSync('mp3/' + 'nande' + '.mp3')
  conn.sendMessage(id, hasil, MessageType.audio, { quoted: m } )
 }
 else if (text == 'abangjago'){
