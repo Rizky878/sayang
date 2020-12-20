@@ -1830,8 +1830,8 @@ if (text.includes("bot")){
 let err = fs.readFileSync('mp3/' + 'nande' + '.mp3')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true })
 }
-if (text.includes("tarekses")){
-let err = fs.readFileSync('mp3/' + 'tarekses' + '.mp3')
+if (text.includes("lah")){
+let err = fs.readFileSync('mp3/' + 'lah' + '.mp3')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true, quoted: m })
 }
 if (text.includes('bot')) {
@@ -1842,8 +1842,8 @@ if (text.includes('bot')) {
  }
  conn.sendMessage(id, options, MessageType.text, { quoted: m })
 }
-if (text.includes("desah")){
-let err = fs.readFileSync('mp3/' + 'desah' + '.mp3')
+if (text.includes("tapi")){
+let err = fs.readFileSync('mp3/' + 'tapi' + '.mp3')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true, quoted: m })
 }
 if (text.includes("iri")){
